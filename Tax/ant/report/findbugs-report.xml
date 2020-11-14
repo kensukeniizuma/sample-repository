@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1605322475223" analysisTimestamp="1605322475240" release="">
+  <Project projectName="">
+    <Jar>C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\sample02\code\Tax\bin\main</Jar>
+    <SrcDir>C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\sample02\code\Tax\src\main</SrcDir>
+  </Project>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="sample.Tax">
+      <SourceLine classname="sample.Tax"/>
+    </Class>
+    <Field classname="sample.Tax" name="test" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="sample.Tax"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 14 Nov 2020 11:54:35 +0900" total_classes="1" referenced_classes="12" total_bugs="1" total_size="12" num_packages="1" java_version="1.8.0_261" vm_version="25.261-b12" cpu_seconds="7.55" clock_seconds="1.75" peak_mbytes="111.56" alloc_mbytes="1794.00" gc_seconds="0.03" priority_2="1">
+    <PackageStats package="sample" total_bugs="1" total_types="1" total_size="12" priority_2="1">
+      <ClassStats class="sample.Tax" sourceFile="&lt;Unknown&gt;" interface="false" size="12" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="363" invocations="332" avgMicrosecondsPerInvocation="1095" maxMicrosecondsPerInvocation="3898" standardDeviationMircosecondsPerInvocation="546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="305" invocations="331" avgMicrosecondsPerInvocation="923" maxMicrosecondsPerInvocation="19519" standardDeviationMircosecondsPerInvocation="2077"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="76" invocations="12" avgMicrosecondsPerInvocation="6394" maxMicrosecondsPerInvocation="20159" standardDeviationMircosecondsPerInvocation="6585"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="64" invocations="61" avgMicrosecondsPerInvocation="1061" maxMicrosecondsPerInvocation="5940" standardDeviationMircosecondsPerInvocation="1117"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="52" invocations="299" avgMicrosecondsPerInvocation="175" maxMicrosecondsPerInvocation="2725" standardDeviationMircosecondsPerInvocation="302"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="46" invocations="3" avgMicrosecondsPerInvocation="15603" maxMicrosecondsPerInvocation="44834" standardDeviationMircosecondsPerInvocation="20672"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="41" invocations="28" avgMicrosecondsPerInvocation="1480" maxMicrosecondsPerInvocation="25208" standardDeviationMircosecondsPerInvocation="4725"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="38" invocations="12" avgMicrosecondsPerInvocation="3204" maxMicrosecondsPerInvocation="14033" standardDeviationMircosecondsPerInvocation="3588"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="26" invocations="12" avgMicrosecondsPerInvocation="2238" maxMicrosecondsPerInvocation="5540" standardDeviationMircosecondsPerInvocation="2011"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
